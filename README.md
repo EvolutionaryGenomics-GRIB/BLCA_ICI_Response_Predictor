@@ -4,7 +4,7 @@ This repository contains the executable for the trained machine learning model p
 
 ## Usage
 
-Trained model is available in this repository in .joblib format. It can be utilized to predict ICI Response for BLCA patients. This model was trained using multiple cohorts totaling 348 patients. To apply the model with new data, whether for validation or predicting a patient's response to treatment, a pandas dataframe containing all the features used during model training must be provided as input.
+Trained model is available in this repository in .joblib format. It can be utilized to predict response to immune checkpoint inhibitors (ICI) for advanced bladder cancer (BLCA) patients. This model was trained using multiple, independent cohorts totaling 348 patients. To apply the model with new data, whether for validation or predicting a patient's response to treatment, a pandas dataframe containing all the features used during model training must be provided as input.
 
 **TMB + RNA model**:
 - TMB_zsore
@@ -23,6 +23,7 @@ Trained model is available in this repository in .joblib format. It can be utili
 - APM_8.GSVA
 - t.spec.lncRNA.GSVA
 
+A detailed description of the variables can be found in the sheet "Final_model_variables" in the [Supplementary File 2 provided on Figshare](https://doi.org/10.6084/m9.figshare.25610574.v1).
 Please note that if any variable is missing, the model will not function properly. Therefore, various imputation techniques can be employed. However, anticipate decreased performance compared to when all the original variables are present.
 
 ## Training results
