@@ -32,6 +32,8 @@ After training the aforementioned model, we evaluated it using different strateg
 | Evaluation Type | AUC Score |
 | --------------- | --------- |
 | Train/test      | 0.75      |
+| Bootstrap .632+ | 0.75      |
+| Avg dataset removal | 0.75      |
 
 ## Contact:
 - Sergio Vázquez Montes de Oca (svazquez1@researchmar.net)
