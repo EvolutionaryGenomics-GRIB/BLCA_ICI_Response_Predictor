@@ -11,38 +11,38 @@ Complete model:
 - APOBECenrichment.total
 - nonstop
 - CCND1
--PD1.zscore
--PDL1.zscore
--HLA-I.GSVA
--IFNg_Ayers.GSVA
--Stroma_EMT.GSVA
--T_cell_inflamed.GSVA
--TGF_beta.GSVA
--Macrophages M1
--T cells CD4 memory activated
--T cells CD8
--T cells regulatory (Tregs)
--ECOG_under0
--Liver.Metastasis
--APM_8.GSVA
--t.spec.lncRNA.GSVA
+- PD1.zscore
+- PDL1.zscore
+- HLA-I.GSVA
+- IFNg_Ayers.GSVA
+- Stroma_EMT.GSVA
+- T_cell_inflamed.GSVA
+- TGF_beta.GSVA
+- Macrophages M1
+- T cells CD4 memory activated
+- T cells CD8
+- T cells regulatory (Tregs)
+- ECOG_under0
+- Liver.Metastasis
+- APM_8.GSVA
+- t.spec.lncRNA.GSVA
 
 TMB + RNA model:
--TMB_zsore
--CCND1
--PD1.zscore
--PDL1.zscore
--HLA-I.GSVA
--IFNg_Ayers.GSVA
--Stroma_EMT.GSVA
--T_cell_inflamed.GSVA
--TGF_beta.GSVA
--Macrophages M1
--T cells CD4 memory activated
--T cells CD8
--T cells regulatory (Tregs)
--APM_8.GSVA
--t.spec.lncRNA.GSVA
+- TMB_zsore
+- CCND1
+- PD1.zscore
+- PDL1.zscore
+- HLA-I.GSVA
+- IFNg_Ayers.GSVA
+- Stroma_EMT.GSVA
+- T_cell_inflamed.GSVA
+- TGF_beta.GSVA
+- Macrophages M1
+- T cells CD4 memory activated
+- T cells CD8
+- T cells regulatory (Tregs)
+- APM_8.GSVA
+- t.spec.lncRNA.GSVA
 
 Please note that if any variable is missing, the model will not function properly. Therefore, various imputation techniques can be employed. However, anticipate decreased performance compared to when all the original variables are present.
 
