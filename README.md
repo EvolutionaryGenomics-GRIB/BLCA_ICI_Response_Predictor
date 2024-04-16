@@ -6,7 +6,7 @@ This repository contains the executable for the trained machine learning model p
 
 Trained models are available in this repository in .joblib format. They can be utilized to predict ICI Response for BLCA patients. These models were trained using multiple cohorts totaling 205 patients for the Complete model and 348 for the TMB + RNA model. To apply the model with new data, whether for validation or predicting a patient's response to treatment, a pandas dataframe containing all the features used during model training must be provided as input.
 
-Complete model:
+**Complete model**:
 - TMB_zsore
 - APOBECenrichment.total
 - nonstop
@@ -27,7 +27,7 @@ Complete model:
 - APM_8.GSVA
 - t.spec.lncRNA.GSVA
 
-TMB + RNA model:
+**TMB + RNA model**:
 - TMB_zsore
 - CCND1
 - PD1.zscore
