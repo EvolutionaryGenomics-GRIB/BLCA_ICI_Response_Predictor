@@ -34,7 +34,8 @@ After training the aforementioned model, we evaluated it using different strateg
 | --------------- | --------- |
 | Train/test      | 0.75      |
 | Bootstrap .632+ | 0.75      |
-| Avg dataset removal | 0.75      |
+| Averaged dataset removal | 0.74      |
+| Undersampling      | 0.76      |
 
 ## Contact:
 - Sergio Vázquez Montes de Oca (svazquez1@researchmar.net)
