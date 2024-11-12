@@ -1,6 +1,6 @@
 # BLCA ICI Response Predictor
 
-This repository contains the executable for the trained machine learning model presented in " "Tumor subtype-resolution of the response to immunotherapy in advanced bladder cancer by the meta-analysis of six independent cohorts" by Boll & Vázquez Montes de Oca et al. (Preprint doi: https://doi.org/10.1101/2024.04.18.589711).
+This repository contains the executable for the trained machine learning model presented in "Predicting immunotherapy response in advanced bladder cancer: a meta-analysis of six independent cohorts" by Boll & Vázquez Montes de Oca et al. (2024, preprint doi: https://doi.org/10.1101/2024.04.18.589711).
 
 ## Usage
 
